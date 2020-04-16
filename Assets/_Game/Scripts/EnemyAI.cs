@@ -26,7 +26,6 @@ public class EnemyAI : MonoBehaviour
     // messages
     private void Start()
     {
-        Debug.Log(3);
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
     }
